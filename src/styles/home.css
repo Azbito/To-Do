@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+strong {
+  font-size: 3rem;
+  color: rgb(114, 202, 143);
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  width: 20rem;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.switchTitle {
+  margin-bottom: -1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: rgb(57, 201, 76);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(62, 170, 76);
+  transition: 0.2s;
+}
+
+button:active {
+  background-color: rgb(15, 110, 3);
+}
+
+.delButton {
+  background-color: rgb(255, 38, 38);
+  margin: 1rem 0;
+}
+
+.delButton:hover {
+  background-color: rgb(196, 7, 7);
+  transition: 0.2s;
+}
+
+.delButton:active {
+  background-color: rgb(92, 1, 1);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  color: white;
+}
+
+.title {
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: rgb(104, 49, 192);
+  padding: 0.3rem 0;
+  width: 100%;
+}
+
+.description {
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+  background-color: rgb(63, 28, 119);
+  padding: 1rem 0;
+  width: 100%;
+  word-break: break-all;
+}
