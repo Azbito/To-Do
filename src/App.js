@@ -67,7 +67,7 @@ export default function App() {
     <div className="container">
       <strong>To Do</strong>
       <input
-        placeholder="Título"
+        placeholder="Title"
         value={task.title}
         onChange={e =>
           setTask(
@@ -89,9 +89,9 @@ export default function App() {
         }
       />
 
-      <button onClick={addTask}>Adicionar</button>
+      <button onClick={addTask}>Add</button>
       <button className="delButton" onClick={() => setList([])}>
-        Remover Todos
+        Remove all
       </button>
       {list.map((item, index) => (
         <div className="list" key={index}>
@@ -110,7 +110,7 @@ export default function App() {
             />
           </div>
           <button className="delButton" onClick={() => delTask(index)}>
-            Remover
+            Remove
           </button>
         </div>
       ))}
